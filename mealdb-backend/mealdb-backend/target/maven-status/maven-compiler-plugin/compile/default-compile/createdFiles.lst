@@ -1,0 +1,14 @@
+com\mealdb\model\Meal.class
+com\mealdb\websocket\MealWebSocketHandler.class
+com\mealdb\config\CorsConfig.class
+com\mealdb\controller\MealController.class
+com\mealdb\service\FavouriteService.class
+com\mealdb\model\MealApiResponse.class
+com\mealdb\MealDbApplication.class
+com\mealdb\model\Favourite.class
+com\mealdb\config\WebSocketConfig.class
+com\mealdb\controller\FavouriteController.class
+com\mealdb\service\MealService.class
+com\mealdb\repository\FavouriteRepository.class
+com\mealdb\model\CategoryApiResponse$Category.class
+com\mealdb\model\CategoryApiResponse.class
