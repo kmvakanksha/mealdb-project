@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../mealdb-backend"
+		},
+		{
+			"path": "../mealdb-frontend"
+		}
+	],
+	"settings": {}
+}

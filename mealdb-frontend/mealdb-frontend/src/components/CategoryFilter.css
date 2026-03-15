@@ -1,0 +1,44 @@
+.catfilter { margin: 24px 0; }
+
+.catfilter__label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  margin-bottom: 10px;
+}
+
+.catfilter__scroll {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+  scrollbar-width: none;
+}
+.catfilter__scroll::-webkit-scrollbar { display: none; }
+
+.catfilter__pill {
+  flex-shrink: 0;
+  padding: 6px 14px;
+  border: 1.5px solid var(--border);
+  border-radius: 100px;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--ink-muted);
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+
+.catfilter__pill:hover {
+  border-color: var(--ink);
+  color: var(--ink);
+}
+
+.catfilter__pill.active {
+  background: var(--ink);
+  border-color: var(--ink);
+  color: var(--parchment);
+}
